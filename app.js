@@ -22,7 +22,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(cors({
-  origin:"https://urlshrinker-mrk.herokuapp.com"
+  origin:"https://mystifying-villani-03a37f.netlify.app"
 }));
 app.use(logger('dev'));
 app.use(express.json());
