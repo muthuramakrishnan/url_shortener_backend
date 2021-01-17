@@ -25,6 +25,7 @@ router.post('/', async (req,res)=>{
           });
       }
       else{
+        connection.close();
         res.status(401).json({
           'message':'Unauthorized',
           'Description':'Token is incorrect'

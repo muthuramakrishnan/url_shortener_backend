@@ -103,6 +103,7 @@ router.post('/login',async (req,res)=>{
       }
     }
     else{
+      connection.close();
       res.status(401).json({
         'message':'Unauthorized',
         'description':'User Id or Password is Incorrect'});
