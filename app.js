@@ -22,7 +22,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(cors({
-  origin:"http://127.0.0.1:5500"
+  origin:"https://urlshrinker-mrk.herokuapp.com"
 }));
 app.use(logger('dev'));
 app.use(express.json());
