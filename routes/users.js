@@ -5,9 +5,9 @@ const emailValidator = require('email-validator');
 const passwordValidator = require('password-validator');
 const { MongoClient } = require('mongodb');
 const bcrypt = require('bcryptjs');
-// const url = "mongodb+srv://dbUser:dbUser@cluster0.cejmf.mongodb.net/<dbname>?retryWrites=true&w=majority";
-const url = 'mongodb://localhost:27017/';
-const dbName = 'UrlShortener';
+const url = "mongodb+srv://dbUser:<password>@cluster0.xroge.mongodb.net/<dbname>?retryWrites=true&w=majority";
+// const url = 'mongodb://localhost:27017/';
+const dbName = 'Cluster0';
 const jwt = require('jsonwebtoken');
 
 /* GET users listing. */

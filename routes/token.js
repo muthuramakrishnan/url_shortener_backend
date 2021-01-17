@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 const { MongoClient } = require('mongodb');
-// const url = "mongodb+srv://dbUser:dbUser@cluster0.cejmf.mongodb.net/<dbname>?retryWrites=true&w=majority";
-const url = 'mongodb://localhost:27017/';
-const dbName = 'UrlShortener';
+const url = "mongodb+srv://dbUser:<password>@cluster0.xroge.mongodb.net/<dbname>?retryWrites=true&w=majority";
+// const url = 'mongodb://localhost:27017/';
+const dbName = 'Cluster0';
 const jwt = require('jsonwebtoken');
 
 
